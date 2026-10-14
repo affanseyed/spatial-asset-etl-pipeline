@@ -29,7 +29,7 @@ gdf_final = gdf_projected[columns_to_keep]
 
 print("3. Loading vector data into PostGIS...")
 DB_USER = "postgres"
-DB_PASS = "Signmeup@123"  # <--- REPLACE THIS WITH YOUR POSTGRESQL PASSWORD
+DB_PASS = "Pgadmin password"  # <--- REPLACE THIS WITH YOUR POSTGRESQL PASSWORD
 DB_HOST = "localhost"
 DB_PORT = "5432"
 DB_NAME = "infrastructure_db"
